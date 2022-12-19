@@ -160,10 +160,12 @@ position: fixed;
 
 
    /* experiencia */
-
+#Experiencias {
+    background: black;
+}
 .fontExp {
     font-size: 50px;
-    color: #303030;
+    color: white;
     margin-bottom: 30px;
     font-family: 'Special Elite', cursive;
 }
