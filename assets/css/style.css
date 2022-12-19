@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+ 
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Nav - botonNav- li */
+
+#PrincipalNav{
+background-color: rgb(18, 19, 41);
+color: #ffffff;
+position: fixed;
+
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.logo {
+  color: #ffffff;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+    
+}
+
+#navbarNavAltMarkup {
+    font-size: 20px;
+}
+
+
+
+/* seccion header */ 
+
+.ImagePrincipal { 
+    text-align : right;
+    background-image: url(../img/playa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 5px;
+    color: #ffffff;
+    text-align: center;
+    background-color: darkgray;
+    font-family: 'Special Elite', cursive;
+
+   }
+
+
+   /* Inicios */
+
+   .bioHr{
+       height: 1px;
+       background-color: chocolate;
+
+   }
+   .bioInfo  { margin-top: 50px;
+    padding: 20px;
+   
+           
+}
+
+.bioInfo h1 {
+    font-family: 'Special Elite', cursive;
+}
+   .parrafotext {
+       margin-top: 5px;
+       color: #303030;
+       font-size: 50px;
+   }
+
+   /* Seccion Inicio desaparece */
+   @media (max-width:550px) {
+    #Biografia {
+        display: none;
+    }
+  
+    
+}
+ 
+/* Conoce mi circulo */
+
+ 
+    .circleHr {
+        height: 1px;
+        background-color: chocolate;
+    
+}
+
+#Circulo h1 { 
+    font-family: 'Special Elite', cursive;
+}
+@media (max-width: 500px) {
+    #Circulo h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
+
+
+
+/* carousel */ 
+
+@media (max-width:550px) {
+    #IdentityCarousel {
+        display: none;
+    }
+}
+
+#carouselExampleIndicators img {
+    width: 233px ;
+    height: 170px;
+    margin-top: 30px;
+  
+}
+
+#Carrousel {
+    margin-top: 40px;
+}
+
+#IdentityCarousel div li {
+    background-color: rgb(5, 3, 3);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; }
+
+
+.carrPrinci {
+    font-size: 40px;
+    font-family: 'Special Elite', cursive;
+}
+
+    /* Despliegue Fotos Viajes */
+
+   .travel {
+       margin-top: 30px;
+       font-family: 'Special Elite', cursive;
+       font-size: 50px;
+       text-align: center;
+   }
+
+
+   @media (max-width: 500px) {
+    .travel {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
+
+
+
+   /* experiencia */
+
+.fontExp {
+    font-size: 50px;
+    color: #303030;
+    margin-bottom: 30px;
+    font-family: 'Special Elite', cursive;
+}
+
+@media (max-width: 500px) {
+    .fontExp {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
+
+  .showExp {
+      margin-top: 70px;
+  }
+
+  .expHr {
+      height: 1px;
+      background-color: chocolate;
+  }
+
+
+  
+  @media (max-width: 550px) {
+      .expHr {
+          display: none
+          ;
+      }
+  }
+
+
+/* typeform */
+
+.typeform-widget {
+    width: 100%;
+    height: 500px
+}
+
+
+
+  /* FOOTER */
+
+  @media (max-width:560px) {
+      .divResp {
+        height: 1px;
+        background-color: chocolate;}
+      
+  }
+
+
+
+  @media (min-width:550px) {
+    .divResp {
+      display: none;
+      height: 1px;
+      background-color: chocolate;}
+    
+}
+
+/* separador de seccion footer con typeform */
+
+  .footerHr{
+    height: 1px;
+    background-color: chocolate;
+    
+}
+    
+
+    @media (max-width:550px) {
+        .footerHr {
+            opacity: 0;
+        }
+    }
+
+
+  .finfooter {
+      font-size: 30px;
+      height: 150px;
+      background-color: seagreen;
+      text-align: center;
+      padding: 40px;
+      font-family: 'Special Elite', cursive;
+      
+  }
+
+
+  .finfooter a{ 
+ 
+    color: #ffffff;
+    margin-left: 10px;}
+  
+    
+
+
+    /* ventanas modal */
+
+    .modal-body img {
+        margin-bottom: 20px;
+    }
+
+
+
+
+    /* boxes */
+    
+    .box {
+        width: 40px;
+        height: 40px;
+     
+    }
+
+   
+  
